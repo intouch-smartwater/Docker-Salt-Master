@@ -2,7 +2,7 @@
 # Salt Stack Salt Master Container
 #
 
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER SOON_ <dorks@thisissoon.com>
 
 # Update System
@@ -16,7 +16,7 @@ RUN apt-get update
 
 # Install Salt
 
-RUN apt-get install -y salt-master=2014.1.11+ds-2trusty1
+RUN apt-get install -y salt-master=2017.7.2+ds-1
 
 # Volumes
 
